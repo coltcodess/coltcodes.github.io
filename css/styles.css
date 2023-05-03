@@ -1,0 +1,31 @@
+:root{
+    --bs-primary-rbg: 30,48,243;
+    --bs-gradient: linear-gradient(180deg, rgba(), rgba());
+    
+}
+
+.text-gradient{
+    background: -webkit-linear-gradient(315deg, #4da057, #955b2c 100%);
+    background-clip:content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-primary{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.button {
+    border: none;
+    color: gray;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
